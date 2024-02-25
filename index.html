@@ -3,9 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js" defer></script>
     <title>Tic tac toe</title>
 </head>
 <body>
+    <h1>Tic Tac Toe</h1>
+    <!-- <div class="btn-container">
+        <button class="option-btn">X</button>
+        <button class="option-btn">O</button>
+    </div> -->
+    <div class="board-container">
+        <div data-index="0" style="border-left:0; border-top: 0;" class="cell"></div>
+        <div data-index="1" style="border-top: 0;" class="cell"></div>
+        <div data-index="2" style="border-right:0; border-top: 0;" class="cell"></div>
+        <div data-index="3" style="border-left: 0;" class="cell"></div>
+        <div data-index="4" class="cell"></div>
+        <div data-index="5" style="border-right: 0;" class="cell"></div>
+        <div data-index="6" style="border-left: 0; border-bottom: 0;" class="cell"></div>
+        <div data-index="7" style="border-bottom: 0;" class="cell"></div>
+        <div data-index="8" style="border-right:0;border-bottom: 0;" class="cell"></div>
+    </div>
+    <div class="input-name">
+        
+        <button id="restart">Restart</button>
+
+    </div>
+    
+    <div class="modal-container">
+        <dialog id="modal">
+            <div id="modal-content">
+                <p></p>
+                <button>Play Again!</button>
+            </div>
+        </dialog>
+    </div>
     
 </body>
 </html>
